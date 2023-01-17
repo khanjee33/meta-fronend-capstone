@@ -18,7 +18,10 @@
 }
 .nav-menu{
     display: flex;
+    
 }
+
+
 .navbar li{
     padding: 1rem;
 }
@@ -48,7 +51,7 @@
     .navbar .active{
         right: 0;
     }
-    .navbar .nav-menu li a {
+    .navbar .nav-menu li Link {
         font-size: 2rem;
     }
 }
