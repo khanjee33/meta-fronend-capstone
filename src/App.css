@@ -1,7 +1,0 @@
-*{
-  display: grid;
-  grid-template-columns: repeat(12,1fr);
-}
-header, nav {
-  grid-column: span 12/ span 12;
-}

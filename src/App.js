@@ -1,20 +1,18 @@
+import React from 'react';
+import Footer from './components/footer/Footer';
+import Hero from './components/hero/Hero';
+import Menu from './components/menu/Menu';
+import Navbar from './components/navbar/Navbar';
 
-import './App.css';
-import Header from './components/Header';
-import Navbar from './components/Navbar';
-import Main from './components/Main';
-import Footer from './components/Footer';
 
-
-function App() {
+export default function () {
   return (
     <>
-      <Header />
       <Navbar />
-      <Main />
+      <Hero />
+      <Menu />
       <Footer />
+      
     </>
-  );
+  )
 }
-
-export default App;
