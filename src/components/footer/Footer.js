@@ -4,12 +4,12 @@ import "./footer.css";
 export default function Footer() {
   return (
     <footer>
-    <div class="footer-container">
-        <div class="logo-section">
+    <div className="footer-container">
+        <div className="logo-section">
             <img src="logo.png" alt="Logo" />
         </div>
-        <div class="link-section">
-            <div class="nav-links">
+        <div className="link-section">
+            <div className="nav-links">
                 <h3>Navigation</h3>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -18,7 +18,7 @@ export default function Footer() {
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-            <div class="contact-links">
+            <div className="contact-links">
                 <h3>Contact</h3>
                 <ul>
                     <li>Email: info@example.com</li>
@@ -26,7 +26,7 @@ export default function Footer() {
                     <li>Address: 123 Main Street, Anytown USA</li>
                 </ul>
             </div>
-            <div class="social-links">
+            <div className="social-links">
                 <h3>Follow Us</h3>
                 <ul>
                     <li><a href="#">Facebook</a></li>

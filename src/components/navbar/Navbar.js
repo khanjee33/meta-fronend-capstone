@@ -18,7 +18,7 @@ export default function Navbar() {
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li><Link to='/hero'>Home</Link></li>
           <li><Link to='/about'>About</Link></li>
-          <li><Link to='/reservation'>Reservation</Link></li>
+          <li><Link to='/booking'>Reservation</Link></li>
           <li> <Link to='/menu'>Menu</Link></li>
           <li><Link to='/order-online'>Order online</Link></li>
           <li><Link to='/login'>Login</Link></li>
